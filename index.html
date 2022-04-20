@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Google</title>
+		<style>
+			div {
+				text-align: center;
+				position: relative;
+				top: 50px;
+			}
+
+			input[type=text] {
+				position: relative;
+				top: 30px;
+				width: 600px;
+                padding-inline-start: 40px;
+				height: 40px;
+				border-radius: 50px;
+				border-width: 1px;
+				font-size: 18px;
+                
+			}
+            
+            input[type=submit] {
+                position: relative;
+                top: 70px;
+                right: 80px;
+				height: 40px;
+				width: 135px;
+				border-width: 1px;
+				border-radius: 8px;
+            }
+
+			#foo {
+				position: relative; 
+				top: 30px;
+				left: 80px;
+				height: 30;
+				text-align: center;
+				display: inline-block;
+			}
+
+            #link {
+                position: relative;
+                left: 70%;
+                top: 10px;
+                color: black;
+                text-decoration: none;
+            }
+
+            #link:hover {
+                text-decoration: underline;
+                color: black;
+            }
+
+            #link2 {
+                position: relative;
+                left: 75%;
+                top: 10px;
+                color: black;
+                text-decoration: none;
+            }
+
+            #link2:hover {
+                text-decoration: underline;
+                color: black; 
+            }
+
+            h4 {
+                position: relative;
+                top: 40px;
+            }
+
+            #link3 {
+                text-decoration: none;
+            }
+
+            #link3:hover {
+                text-decoration: underline;
+                color: blue;
+                
+            }
+		</style>
+	</head>
+	<body>
+		<a id="link" href="image_google.html">Зображення</a>
+		<a id="link2" href="advanced_search_google.html">Розширений пошук</a>
+		<div>
+			<img
+			src=https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png
+			width="280">
+			<form action="https://google.com/search">
+                <input placeholder="URL- address" type="text" name="q">
+        </div>
+        <div>
+            <input type="submit" value="Пошук Google ">
+        </div>
+		<div>
+			<input id="foo" type="submit" value="Мені пощастить">
+		</div>
+        <div>
+           <h4>Мова Google:      <a id="link3" href="https://www.google.cz/preferences?hl=uk">     Українська</a></h4>
+        </div>
+    </body>
+</html>

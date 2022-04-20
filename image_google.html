@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Google</title>
+        <style>
+            div {
+				text-align: center;
+				position: relative;
+				top: 30px;
+			}
+
+			input[type=text] {
+				position: relative;
+				top: 30px;
+				width: 600px;
+                padding-inline-start: 40px;
+				height: 40px;
+				border-radius: 50px;
+				border-width: 1px;
+				font-size: 18px;
+                
+			}
+            
+            input[type=submit] {
+                position: relative;
+                top: 60px;
+                right: 15px;
+				height: 40px;
+				width: 135px;
+				border-width: 1px;
+				border-radius: 8px;
+            }
+
+            h3 {
+                position: relative;
+                top: 120px;
+                left: 135px;
+            }
+
+            #link {
+                position: relative;
+                left: 70%;
+                top: 15px;
+                color: blue;
+                text-decoration: none;
+            }
+
+            #link:hover {
+                text-decoration: underline;
+                color: green;
+            }
+
+            #link2 {
+                position: relative;
+                left: 75%;
+                top: 15px;
+                color: blue;
+                text-decoration: none;
+            }
+
+            #link2:hover {
+                text-decoration: underline;
+                color: green; 
+            }
+
+        </style>
+    </head>
+    <body>
+        <a id="link" href="index.html">Пошук Google</a>
+        <a id="link2" href="advanced_search_google.html">Розширений пошук</a>
+        <div>
+            <h3 style="color: blue">Зображення</h3>
+            <img
+            src=https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png
+            width="280">
+            <form action="https://www.google.cz/imghp?hl=uk&ogbl">
+                <input placeholder="URL- address" type="text" name="q">
+        </div>
+        <div>
+            <input type="submit" value="Пошук Google">
+        </div>
+    </body>
+</html>
